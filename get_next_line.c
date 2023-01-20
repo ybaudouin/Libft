@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ybaudoui <ybaudoui@student.42angoulem      +#+  +:+       +#+        */
+/*   By: ybaudoui <ybaudoui@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 17:09:21 by ybaudoui          #+#    #+#             */
-/*   Updated: 2022/05/17 14:06:40 by ybaudoui         ###   ########.fr       */
+/*   Updated: 2023/01/17 15:11:08 by ybaudoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

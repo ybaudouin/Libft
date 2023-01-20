@@ -17,13 +17,14 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_t	i;
 	char	*str;
 
-	if ((s1 == 0) || (s2 == 0))
-		return (NULL);
+//	if ((s1 == 0) || (s2 == 0))
+//		return (NULL);
 	i = ft_strlen(s1) + ft_strlen(s2);
 	str = malloc(sizeof(char) * (i + 1));
 	if (!str)
 		return (NULL);
-	ft_strlcpy(str, s1, i + 1);
+    if (s1)
+	    ft_strlcpy(str, s1, i + 1);
 	ft_strlcpy(str + ft_strlen(s1), s2, i + 1);
 	return (str);
 }
